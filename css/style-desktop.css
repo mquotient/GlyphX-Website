@@ -44,7 +44,7 @@
 				letter-spacing: 0.075em;
 				line-height: 1.5em;
 			}
-			
+
 			header.style1 p
 			{
 				display: block;
@@ -59,7 +59,7 @@
 		form
 		{
 		}
-		
+
 			form label
 			{
 				margin: 0.25em 0 0.5em 0;
@@ -78,7 +78,7 @@
 			height: 4em;
 			line-height: 4em;
 		}
-		
+
 			input[type="button"].big,
 			input[type="submit"].big,
 			input[type="reset"].big,
@@ -98,34 +98,34 @@
 			{
 				margin: 3em 0 0 0;
 			}
-			
+
 				form ul.actions
 				{
 					margin-top: 0;
 				}
-			
+
 				ul.actions li
 				{
 					display: inline-block;
 					margin: 0 0.75em 0 0.75em;
 				}
-				
+
 				ul.actions li:first-child
 				{
 					margin-left: 0;
 				}
-				
+
 				ul.actions li:last-child
 				{
 					margin-right: 0;
 				}
-				
+
 				ul.actions-centered
 				{
 					text-align: center;
 				}
 
-	/* Feature List */		
+	/* Feature List */
 
 		.feature-list
 		{
@@ -140,11 +140,11 @@
 			.feature-list .row
 			{
 			}
-		
+
 				.feature-list .row:first-child
 				{
 				}
-				
+
 					.feature-list .row:first-child section
 					{
 						padding-top: 0;
@@ -168,20 +168,20 @@
 					font-size: 32px;
 					top: 0.2em;
 				}
-		
+
 			.feature-list p
 			{
 				margin: 0 0 0 5em;
 			}
-			
+
 			.feature-list.small
 			{
 			}
-			
+
 				.feature-list.small h3
 				{
 				}
-			
+
 					.feature-list.small h3:before
 					{
 						font-size: 24px;
@@ -190,7 +190,7 @@
 						height: 45px;
 						margin-right: 1em;
 					}
-					
+
 				.feature-list.small p
 				{
 					margin: 0 0 0 4em;
@@ -201,7 +201,7 @@
 		.box
 		{
 		}
-		
+
 			.box header
 			{
 				margin: 0 0 1.5em 0;
@@ -232,27 +232,27 @@
 		.box.post-excerpt
 		{
 		}
-		
+
 			.box.post-excerpt .image.left
 			{
 				position: relative;
 				top: 0.5em;
 				width: 5em;
 			}
-			
+
 			.box.-post-excerpt h3,
 			.box.post-excerpt p
 			{
 				margin-left: 7em;
 			}
-			
+
 /*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
 
 	.wrapper
 	{
-		padding: 6em 0 9em 0;
+		padding: 3em 0 9em 0;
 	}
 
 		.wrapper .title
@@ -272,10 +272,6 @@
 		padding: 0;
 	}
 
-	#intro-wrapper
-	{
-		padding-bottom: 8em;
-	}
 
 /*********************************************************************************/
 /* Header                                                                        */
@@ -283,14 +279,8 @@
 
 	#header
 	{
-		position: relative;
-		padding: 12em 0;
+		padding: 6em 0;
 	}
-
-		.homepage #header
-		{
-			padding: 18em 0;
-		}
 
 /*********************************************************************************/
 /* Logo                                                                          */
@@ -298,32 +288,16 @@
 
 	#logo
 	{
-		position: absolute;
-		height: 5em;
-		top: 50%;
-		left: 0;
 		width: 100%;
 		text-align: center;
-		margin-top: -0.5em;
 	}
 
-		.homepage #logo
-		{
-			margin-top: -1em;
-		}
-
-		#logo h1
-		{
-			font-size: 2em;
-			letter-spacing: 0.25em;
-		}
-		
 		#logo p
 		{
-			margin: 1.25em 0 0 0;
+			margin: 0;
 			display: block;
 			letter-spacing: 0.2em;
-			font-size: 0.9em;
+			font-size: 0.8em;
 		}
 
 /*********************************************************************************/
@@ -334,7 +308,7 @@
 	{
 		position: absolute;
 		display: block;
-		top: 2.5em;
+		top: 1em;
 		left: 0;
 		width: 100%;
 		text-align: center;
@@ -359,7 +333,7 @@
 			text-align: center;
 			padding: 0 1.5em 0 1.5em;
 		}
-		
+
 			#nav > ul > li > a,
 			#nav > ul > li > span
 			{
@@ -379,7 +353,7 @@
 				transition: all .25s ease-in-out;
 				outline: 0;
 			}
-			
+
 			#nav > ul > li:hover > a,
 			#nav > ul > li.active > a,
 			#nav > ul > li.active > span
@@ -399,7 +373,7 @@
 		margin-top: -1.25em;
 		margin-left: -1px;
 	}
-	
+
 		.dropotron.level-0
 		{
 			margin-top: -1px;
@@ -407,7 +381,7 @@
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 		}
-	
+
 		.dropotron a,
 		.dropotron span
 		{
@@ -426,49 +400,19 @@
 			-ms-transition: all .25s ease-in-out;
 			transition: all .25s ease-in-out;
 		}
-		
+
 		.dropotron li:first-child a,
 		.dropotron li:first-child span
 		{
 			border-top: 0;
 		}
-		
+
 		.dropotron li:hover > a,
 		.dropotron li:hover > span
 		{
 			color: #fff;
 		}
 
-/*********************************************************************************/
-/* Intro                                                                         */
-/*********************************************************************************/
-
-	#intro
-	{
-		text-align: center;
-	}
-
-		#intro > .style1
-		{
-			font-size: 1.5em;
-			letter-spacing: 0.075em;
-		}	
-		
-		#intro > .style2
-		{
-			font-size: 2.75em;
-			letter-spacing: 0.075em;
-			line-height: 1.35em;
-			padding: 1em 0 1em 0;
-			margin-bottom: 1em;
-		}
-		
-		#intro > .style3
-		{
-			font-size: 1.1em;
-			width: 48em;
-			margin: 0 auto;
-		}
 
 /*********************************************************************************/
 /* Features                                                                      */
@@ -483,7 +427,7 @@
 		{
 			padding-bottom: 5em;
 		}
-		
+
 		#features .actions
 		{
 			margin-top: 5em;
@@ -550,13 +494,13 @@
 	{
 		margin: 6em 0 0 0;
 	}
-	
+
 		#copyright ul
 		{
 			padding: 0.75em 2em;
 			font-size: 0.9em;
 		}
-		
+
 			#copyright ul li
 			{
 				display: inline-block;
@@ -565,7 +509,7 @@
 				border-left: solid 1px #333;
 				border-left-color: rgba(255,255,255,0.05);
 			}
-			
+
 				#copyright ul li:first-child
 				{
 					border-left: 0;
