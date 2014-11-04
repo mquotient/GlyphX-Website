@@ -41,7 +41,6 @@
 			header.style1 h2
 			{
 				font-size: 2em;
-				letter-spacing: 0.075em;
 				line-height: 1.5em;
 			}
 
@@ -154,8 +153,6 @@
 			.feature-list h3
 			{
 				margin: 0 0 0.75em 0;
-				font-size: 1.15em;
-				letter-spacing: 0.05em;
 				margin-top: -0.35em;
 			}
 
@@ -164,14 +161,14 @@
 					width: 64px;
 					height: 64px;
 					line-height: 64px;
-					margin-right: 0.75em;
+					margin-right: 0.5em;
 					font-size: 32px;
 					top: 0.2em;
 				}
 
 			.feature-list p
 			{
-				margin: 0 0 0 5em;
+				margin: 0;
 			}
 
 			.feature-list.small
@@ -188,12 +185,11 @@
 						line-height: 45px;
 						width: 45px;
 						height: 45px;
-						margin-right: 1em;
 					}
 
 				.feature-list.small p
 				{
-					margin: 0 0 0 4em;
+					margin: 0;
 				}
 
 	/* Box */

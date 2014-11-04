@@ -158,6 +158,11 @@
 		form
 		{
 		}
+			form .heading {
+				color: #E97770;
+				margin: 0 0 0.75em 0;
+				margin-top: -0.35em;
+			}
 
 			form label
 			{
@@ -218,26 +223,22 @@
 				form ::-webkit-input-placeholder
 				{
 					color: #555 !important;
-					font-style: italic;
 					line-height: 1.35em;
 				}
 
 				form :-moz-placeholder
 				{
 					color: #555 !important;
-					font-style: italic;
 				}
 
 				form ::-moz-placeholder
 				{
 					color: #555 !important;
-					font-style: italic;
 				}
 
 				form :-ms-input-placeholder
 				{
 					color: #555 !important;
-					font-style: italic;
 				}
 
 				form ::-moz-focus-inner
@@ -530,9 +531,14 @@
 			-moz-osx-font-smoothing:grayscale;
 		}
 
+		.icon-social:before {
+			width: 1.2em;
+		}
+
 		.icon > .label {
 			display: none;
 		}
+
 
 /*********************************************************************************/
 /* Wrappers                                                                      */
@@ -659,12 +665,6 @@
 		color: rgba(255,255,255,0.5);
 	}
 
-		#footer-wrapper h1,
-		#footer-wrapper h2,
-		#footer-wrapper h3,
-		#footer-wrapper h4,
-		#footer-wrapper h5,
-		#footer-wrapper h6,
 		#footer-wrapper strong,
 		#footer-wrapper b,
 		#footer-wrapper a
