@@ -79,7 +79,7 @@
 		}
 
 		// Email API
-		$("#sendemail").on("click", function() {
+		$("form#hearFromYou").submit(function() {
 			$.ajax({
 				url: 'https://api.sendgrid.com/api/mail.send.json',
 				type: 'POST',
@@ -102,6 +102,8 @@
 			}).fail(function() {
 				console.log("error");
 			});
+
+			return false;
 		});
 	});
 })(jQuery);

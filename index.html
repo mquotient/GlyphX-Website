@@ -186,30 +186,30 @@
 					<div class="6u">
 						<!-- Contact Form -->
 						<section>
-							<form method="post">
+							<form method="post" id="hearFromYou">
 								<h3 class="heading">We would love to hear from you</h3>
 								<div class="row half">
 									<div class="6u">
-										<input type="text" name="name" id="contact-name" placeholder="Your Name" />
+										<input type="text" name="name" id="contact-name" placeholder="Your Name" required/>
 									</div>
 									<div class="6u">
-										<input type="text" name="email" id="contact-email" placeholder="Your Email" />
+										<input type="email" name="email" id="contact-email" placeholder="Your Email"  required/>
 									</div>
 								</div>
 								<div class="row half">
 									<div class="12u">
-										<input type="text" name="email" id="contact-number" placeholder="Phone" />
+										<input type="text" name="phone" id="contact-number" placeholder="Phone" required/>
 									</div>
 								</div>
 								<div class="row half">
 									<div class="12u">
-										<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+										<textarea name="message" id="contact-message" placeholder="Message" rows="4" required></textarea>
 									</div>
 								</div>
 								<div class="row half">
 									<div class="12u">
 										<ul class="actions">
-											<li><span id="sendemail" class="button style1" >Send</span></li>
+											<li><input type="submit" class="style1" value="Send" /></li>
 											<li><input type="reset" class="style2" value="Reset" /></li>
 										</ul>
 									</div>
